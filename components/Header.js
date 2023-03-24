@@ -37,7 +37,7 @@ export default function Header() {
             <div className={"flex space-x-4 items-center"}>
                 <HomeIcon className={"hidden md:inline-flex h-6 cursor-pointer hover:scale-125 transition-transform duration-200"}/>
                 <PlusCircleIcon className={"h-6 cursor-pointer hover:scale-125 transition-transform duration-200"}/>
-                <div className={"p-3 bg-yellow-300 rounded-full cursor-pointer"}></div>
+                <div className={"p-3 bg-yellow-300 rounded-full cursor-pointer hover:scale-125 transition-transform duration-200"}></div>
             </div>
         </nav>
     </div>
